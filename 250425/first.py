@@ -28,8 +28,8 @@ print(PI)
 print(type(PI))
 print(type(name))
 
-
-
+a = "print("Hello"
+print(a)
 
 
 

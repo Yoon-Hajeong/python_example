@@ -151,12 +151,11 @@ len() 을 사용하여 문자의 수를 변수에 넣는다.
 
 
 
-#정답
-yyyy,mm,dd = input().split()
-yyyy,mm,dd = int(yyyy),int(mm).int(dd)
-if yyyy % 2 == 0:
-    print("짝수 년도에 태어났습니다.")
-else:
-    print("홀수 년도에 태어났습니다.")
-
+# #정답
+# yyyy,mm,dd = input().split()
+# yyyy,mm,dd = int(yyyy),int(mm).int(dd)
+# if yyyy % 2 == 0:
+#     print("짝수 년도에 태어났습니다.")
+# else:
+#     print("홀수 년도에 태어났습니다.")
 

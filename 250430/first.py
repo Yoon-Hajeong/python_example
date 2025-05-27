@@ -129,6 +129,29 @@ a,b,c = int(input()),int(input()),int(input())
 
 # print(f"상금: {price}원")
 
+class Student:
+    def __init__(self, name, student_id):
+        self.name = name
+        self.student_id = student_id
+        self.scores = []
+
+    def add_score(self, subject, score):
+        self.scores.append((subject, score))
+
+    def get_average(self):
+        if not self.scores:
+            return 0
+        return sum([s for _, s in self.scores]) / len(self.scores)
+
+    def get_highest_subject(self):
+        if not self.scores:
+            return ("없음", 0)
+        return max(self.scores, key=lambda x: x[1])
+
+    def show_scores(self):
+        for sub, sc in self.scores:
+            print(f"{sub}: {sc}점")
+        print(f"평균 점수: {self.get_average()}점")
 
 
 

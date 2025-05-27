@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>단위</title>
+    <style>
+      .box {
+        width : 500px;
+        height: 500px;
+        background-color: pink;
+      }
+     /* 블록요소의 가로길이 정해줌 */
+      .percent {
+        width: 50%;
+        height: 50%;
+        background-color: lightblue;
+      }
+      .viewport {
+        width: 10nw;
+        height: 10vh;
+        background-color: green;
+      }
+      /*디바이스 코기와 상관없이 항상 화면 비율에 맞춰 요소가 조정되어야 할때*/
+  </style>
+</head>
+<body>
+  <section class="viewport">뷰포트의 10% 너비, 10%의 높이</section>
+  <div class = "box">이 상자의 크기는 500픽셀로 지정되어 있다.</div>
+  <bf>
+  <div class = "box"></div>
+    <section class="percent">부모의 50% 너비입니다.</section>
+</body>
+</html>
